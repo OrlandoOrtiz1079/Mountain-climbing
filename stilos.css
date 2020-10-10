@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-image: url(montaña.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(53, 53, 117);
+}
+
+.menu {
+    margin-bottom: 15px;
+    color: white;
+    fill: currentColor;
+}
+
+.menu:hover {
+    cursor: pointer;
+    color: rgba(170, 166, 166, 0.87);
+}
+
+.menu:active {
+    cursor: pointer;
+    color: rgba(170, 166, 166, 0.87);
+}
+
+.containerh {
+    display: flex;
+}
+
+#log {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+#log:hover {
+    cursor: pointer;
+}
+
+#log:active {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#log:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.lupa {
+    fill: currentColor;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    color: white;
+    background-color: rgba(131, 126, 124, 0.405);
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+}
+
+.lupa:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.lupa:active {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+header {
+    color: aliceblue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo1 {
+    font-size: 50px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.titulo2 {
+    font-size: 50px;
+    width: fit-content;
+    color: rgb(238, 217, 27);
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.titulo3 {
+    font-size: 18px;
+}
+
+a {
+    margin: 0px;
+    color: white;
+}
+
+#lista1 li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.separador {
+    color: white;
+}
+
+#lista1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 0px;
+}
+
+a:hover {
+    color: rgb(101, 3, 121);
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+a:active {
+    color: rgb(101, 3, 121);
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+div.noticia {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background: #E0EAFC;
+    background: linear-gradient(to right, #fdfdfd, #5790fc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+aside {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(53, 53, 117);
+}
+
+div.noticia img.izquierda {
+    float: left;
+    border-radius: 26px;
+}
+
+div.noticia img.derecha {
+    float: right;
+    border-radius: 26px;
+}
+
+.estrellas {
+    fill: currentColor;
+    margin-left: 15px;
+    color: yellow;
+}
+
+.estrellasC {
+    fill: currentColor;
+    margin-left: 15px;
+    color: white;
+}
+
+.estrellas:hover {
+    cursor: pointer;
+}
+
+.estrellasC:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: rgb(53, 53, 117);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    margin-top: 0px;
+    display: flex;
+    background-color: rgb(53, 53, 117);
+    width: 90px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: rgba(53, 53, 117, 0.5);
+}
+
+.boton:active {
+    background-color: rgba(53, 53, 117, 0.5);
+}
+
+.pie {
+    color: rgb(53, 53, 117);
+    background-color: rgb(53, 53, 117);
+}
