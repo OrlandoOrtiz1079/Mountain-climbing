@@ -58,7 +58,7 @@ body {
 .lupa {
     fill: currentColor;
     margin-bottom: 10px;
-    margin-left: 190px;
+    margin-left: 170px;
     color: white;
     background-color: rgba(131, 126, 124, 0.405);
     padding-left: 7px;
@@ -109,6 +109,7 @@ header {
 
 .titulo3 {
     font-size: 18px;
+    margin-left: 10px;
 }
 
 a {
@@ -116,9 +117,8 @@ a {
     color: white;
 }
 
-#lista1 li {
-    display: inline-block;
-    margin-right: 5px;
+.a1 {
+    margin-left: 15px;
 }
 
 .separador {
@@ -135,7 +135,7 @@ a {
 a:hover {
     color: rgb(101, 3, 121);
     background-color: white;
-    padding: 3px;
+    padding: 2px;
     border-radius: 20px;
 }
 
