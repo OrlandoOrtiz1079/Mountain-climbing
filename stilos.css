@@ -201,16 +201,15 @@ h3 {
 }
 
 .boton {
-    margin-top: 0px;
     display: flex;
     background-color: rgb(53, 53, 117);
     width: 90px;
     border-radius: 30px;
     color: white;
-    font-size: 20px;
-    padding-left: 12px;
-    padding-right: 10px;
+    font-size: 15px;
+    padding-left: 15px;
     padding-top: 5px;
+    margin-right: 0x;
     padding-bottom: 5px;
     cursor: pointer;
 }
