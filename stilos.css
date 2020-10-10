@@ -115,6 +115,7 @@ header {
 a {
     margin: 0px;
     color: white;
+    font-size: 14px;
 }
 
 .a1 {
@@ -206,7 +207,7 @@ h3 {
     width: 90px;
     border-radius: 30px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 15px;
     padding-top: 5px;
     margin-right: 0x;
