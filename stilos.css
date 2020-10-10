@@ -159,7 +159,7 @@ div.noticia {
 
 aside {
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     color: rgb(53, 53, 117);
 }
 
@@ -175,13 +175,13 @@ div.noticia img.derecha {
 
 .estrellas {
     fill: currentColor;
-    margin-left: 15px;
+    margin-left: 10px;
     color: yellow;
 }
 
 .estrellasC {
     fill: currentColor;
-    margin-left: 15px;
+    margin-left: 10px;
     color: white;
 }
 
